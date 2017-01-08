@@ -1,0 +1,15 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : chear                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : chear <roomname> all/swears/nothing
+
+   This sets what part of the conversation in the clones room the clone 
+   will display to you.  "all" makes it show all that is being said and 
+   emoted, "swears" will make it just report swearing (based on the 
+   swear_words array in rnuts.h) and nothing will force it to ignore 
+   everything.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : clone, destroy, allclones, myclones, csay, switch
+~FT+-----------------------------------------------------------------------------+ 

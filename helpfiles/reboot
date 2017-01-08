@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : reboot                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : reboot [<sec>/cancel]
+
+   This will reboot the talker, either immediately or after 
+   "secs" seconds.  The cancel option will cancel any timed reboot.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : shutdown
+~FT+-----------------------------------------------------------------------------+

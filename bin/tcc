@@ -1,0 +1,43 @@
+#!/bin/bash
+#--------------------------------------------------------------
+# Compile script for the talker.
+#--------------------------------------------------------------
+
+#--------------------------------------------------------------
+# declare the RNUTS directory, and save users `pwd`
+#--------------------------------------------------------------
+RNUTS=$HOME/rnuts
+SOURC=./rnuts.c
+EXEC=talker.ex
+OPWD=$PWD
+
+#--------------------------------------------------------------
+# changing to the $RNUTS directory
+#--------------------------------------------------------------
+if [ $OPWD != $RNUTS ];then
+        echo -n "Changing to '$RNUTS'..."
+        cd $RNUTS
+        echo ..done
+fi
+
+#--------------------------------------------------------------
+# compiling the source code
+# gcc -lcrypt $*  <-- for use on the new compiler
+#--------------------------------------------------------------
+echo -n "Compiling source code '$SOURC'..."
+gcc -lcrypt -o $EXEC $RNUTS/$SOURC
+echo ...done
+
+#--------------------------------------------------------------
+# changing back to directory
+#--------------------------------------------------------------
+if [ $OPWD != $RNUTS ];then
+        echo -n "Changing back to '$OPWD'..."
+        cd $OPWD
+        echo ..done
+fi
+
+#--------------------------------------------------------------
+# end
+#--------------------------------------------------------------
+ 

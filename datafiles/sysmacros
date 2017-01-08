@@ -1,0 +1,17 @@
+!=.shout $*
+#=.shemote $*
+&=.examine $1
+'=.say $*
+,=.tell $*
+-=.echo $*
+.help=.help $*
+.look=.look
+.news=.read news
+.tell=.tell $*
+.who=.who
+/=.pemote $*
+;=.emote $*
+<=.review
+>=.go $1
+?=.help commands
+@=.who

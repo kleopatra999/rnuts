@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : connect                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : connect <roomname>
+
+   This command tries to make this room a gateway to another talker by
+   bringing up a netlink. The link must be predefined in the config file.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : disconnect, netstat, netdata
+~FT+-----------------------------------------------------------------------------+

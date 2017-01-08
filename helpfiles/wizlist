@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : wizlist                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : wizlist
+
+   This shows you:
+
+        1) A list of ALL the Sherwood wizzes
+        2) A list of those wizzes currently logged on
+
+~FT+-----------------------------------------------------------------------------+

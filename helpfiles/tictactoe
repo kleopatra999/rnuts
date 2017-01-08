@@ -1,0 +1,15 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : tictactoe                                 ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : tictactoe [<username>/<cell number>]
+
+   This is just the online version of that good ol' game. ;)
+   Choose the user to play with(to accept, type .tictactoe <offering 
+   user name>, and then use the numbers 1-9 to fill whatever square 
+   you want.  X's and O's are determined by the first player to go(X 
+   is the first player). 
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : reset
+~FT+-----------------------------------------------------------------------------+

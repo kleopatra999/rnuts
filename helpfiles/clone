@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : clone                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : clone [<room>]
+
+   Clone will create a clone of you in whichever room you specify.  If
+   you give leave out the room option the clone is created in the room 
+   you are currently in.  The clone can then listen in to the 
+   conversation in the room.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : destroy, switch, allclones, myclones, csay, chear
+~FT+-----------------------------------------------------------------------------+

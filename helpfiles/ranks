@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : ranks                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : ranks [<level name>]
+
+   This command will first list out all the ranks in this talker, 
+   with command totals and such for each level.  Then, used in 
+   conjunction with the level name, a description of that level 
+   will be given to you.
+
+~FT+-----------------------------------------------------------------------------+

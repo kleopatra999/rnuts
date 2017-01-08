@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : dmail                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : dmail <number of messages>/all
+
+   Deletes your mail messages from your mailbox, and if argument is "all" 
+   then it will check to make sure you want to delete all your smail.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : smail, rmail, from
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,60 @@
+# Main config file.
+
+INIT:
+verification       rnuts1devl
+mainport           6050
+wizport            6051
+linkport           6052
+max_users          25
+max_clones         3
+heartbeat          2
+login_idle_time    150
+user_idle_time     420
+ban_swearing       NO
+auto_connect       NO
+password_echo      NO
+ignore_sigterm     NO
+allow_caps_in_name NO
+system_logging     ON
+colour_def         ON
+prompt_def         OFF
+charecho_def       OFF
+minlogin_level     NONE
+mesg_life          7
+mesg_check_time    01:00
+min_private        2
+ignore_mp_level    SPIRITGUARD
+rem_user_maxlevel  DREAMER
+rem_user_deflevel  DREAMER
+wizport_level      SPIRITGUARD
+gatecrash_level    DREAMOWNER
+time_out_afks	   NO
+time_out_maxlevel  POWERDREAMER
+crash_action       REBOOT
+nuts_talk_style    NEW
+
+ROOMS:
+cl clearing	df,nr,st,sr			PUB
+df forest	cl,mc,tt			PUB	
+mc camp		df			
+tt treetops	df			
+nr northroad	cl,kc				PUB
+kc kingscastle  nr			
+st stream	cl,wf				PUB
+wf waterfall	st			
+sr southroad	cl,fw,lm			PUB
+fw tuckswagon	sr
+lm loxleys      sr		
+ja jail		no			
+bj blackjack	no				PUB
+
+no noblemen     en,sl,sh				PRIV
+sl slugger	no					PRIV
+en engi		no					PRIV
+sh sheriff	no					PRIV
+
+# Link to the 2nd talker. You may need to put the machine name rather than
+# localhost here when youre running the 2nd talker on the same machine , it
+# depends on how the /etc/hosts file is set up and also the resolver.
+SITES:
+# talker2    spirit 5002    fred123 

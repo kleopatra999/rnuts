@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : ignore                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : ignore <username>
+
+   This command allows you to turn on ignoring on a specific user, 
+   ignoring all tells and shouts from that user.  This will not block 
+   normal text.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : unignore, showignore, ignall, igntell, ignshout
+~FT+-----------------------------------------------------------------------------+

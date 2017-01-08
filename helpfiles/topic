@@ -1,0 +1,11 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : topic                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : topic [<message>/-c]
+
+   This will allow you to set the current topic in the room you are 
+   in.  The -c switch allows you to clear the current topic, without 
+   having to add a new one.
+
+~FT+-----------------------------------------------------------------------------+

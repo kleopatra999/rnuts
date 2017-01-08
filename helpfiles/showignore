@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : showignore                                ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : showignore 
+
+   This command supplies the user with a list of people that they are 
+   currently ignoring.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : ignore, unignore, ignall, igntell, ignshout
+~FT+-----------------------------------------------------------------------------+

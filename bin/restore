@@ -1,0 +1,80 @@
+#!/bin/bash
+#--------------------------------------------------------------
+# simple restore script written to restore all source code and
+# userfiles from $RNUTS/BACKUPS directory
+#
+# written by: fck
+#--------------------------------------------------------------
+
+#--------------------------------------------------------------
+# declare the RNUTS directory
+#--------------------------------------------------------------
+RNUTS=$HOME/rnuts
+OPWD=$PWD
+
+
+#--------------------------------------------------------------
+# restore the 'rnuts.c' file
+#--------------------------------------------------------------
+echo -n "     Restoring up 'rnuts.c' ......."
+cp $RNUTS/BACKUPS/rnuts.c $RNUTS/rnuts.c
+   echo -n ".."
+   sleep 1
+echo "...done"
+
+
+#--------------------------------------------------------------
+# restore the 'rnuts.h' file
+#--------------------------------------------------------------
+echo -n "     Restoring up 'rnuts.h' ......."
+cp $RNUTS/BACKUPS/rnuts.h $RNUTS/rnuts.h
+   echo -n ".."
+   sleep 1
+echo "...done"
+
+
+#--------------------------------------------------------------
+# change to $RNUTS directory
+#--------------------------------------------------------------
+if [ $OPWD != $RNUTS ];then
+        echo "Changing to '$RNUTS'"
+        cd $RNUTS
+fi
+
+
+#--------------------------------------------------------------
+# restore all files in 'objects'
+#--------------------------------------------------------------
+echo -n "     Restoring up 'objects/*' ......."
+mv $RNUTS/BACKUPS/objects.tar.gz $RNUTS/
+gunzip objects.tar.gz
+tar xf objects.tar
+gzip objects.tar
+mv objects.tar.gz $RNUTS/BACKUPS
+echo "...done"
+
+
+#--------------------------------------------------------------
+# restore the userfiles
+#--------------------------------------------------------------
+echo -n "     Restoring up 'userfiles/*' ....."
+mv $RNUTS/BACKUPS/users.tar.gz $RNUTS/
+gunzip users.tar.gz
+tar xf users.tar 
+gzip users.tar
+mv users.tar.gz $RNUTS/BACKUPS
+echo "...done"
+
+ 
+#--------------------------------------------------------------
+# change back to previous directory
+#--------------------------------------------------------------
+if [ $OPWD != $RNUTS ];then
+        echo "Changing back to '$OPWD'"
+        cd $OPWD
+fi
+
+
+#--------------------------------------------------------------
+# end.
+#--------------------------------------------------------------

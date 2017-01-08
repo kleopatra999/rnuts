@@ -1,0 +1,11 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : echo                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : echo <message>
+
+   This is more a fun command than anything really usefull. It 
+   simply echoes whatever you write as the text into the room 
+   without other users seeing who said it.
+
+~FT+-----------------------------------------------------------------------------+

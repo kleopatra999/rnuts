@@ -1,0 +1,15 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Ranks~RS    : Level Forrester                           ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Synopsis~RS : This is the level in which all users start.  Considered
+              newbie.  Users are auto-promoted from this level as soon
+              as the user has completed the three simple steps.
+
+              Step 1: .desc <something cool> 
+                   2: .set gend <male/female/other> 
+                   3: .accreq <email address>
+
+~FT+-----------------------------------------------------------------------------+
+   User has a total of 18 commands.  
+~FT+-----------------------------------------------------------------------------+

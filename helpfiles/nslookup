@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : nslookup                                  ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : nslookup [<domain>/-r]
+
+   This command allows the admin to check on a site to domain if it is a 
+   legitimate domain that is listed with internic.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : finger, whois, accreq
+~FT+-----------------------------------------------------------------------------+

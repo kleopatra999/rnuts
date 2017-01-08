@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : shutdown                                  ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : shutdown [<secs>/cancel]
+
+   This will shutdown the talker, either immediately or after 
+   "secs" seconds.  The cancel option will cancel any timed shutdown.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : reboot
+~FT+-----------------------------------------------------------------------------+

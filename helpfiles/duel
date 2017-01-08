@@ -1,0 +1,19 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : duel                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : duel <username>/<yes/no>
+
+   This command allows you to challenge another user to a duel.  The 
+   outcome is first determined by level; if you are the same level as 
+   your opponent, the outcome is random.  The loser of the duel is 
+   subsequently logged out of the talker.  
+
+   The possibles outcomes are: 
+
+        1) attacker wins
+        2) defender wins
+        3) tie, both logged out
+        4) tie, neither logged out
+
+~FT+-----------------------------------------------------------------------------+

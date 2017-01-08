@@ -1,0 +1,15 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : charge                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : charge
+
+   This command is used to reload your nerfgun durring nerf conbat.
+   You will be warned when your nerf gun is empty.  Every charge gives
+   you 5 shots.
+
+   NOTE:  you must be in the designated nerfroom.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : nerf
+~FT+-----------------------------------------------------------------------------+

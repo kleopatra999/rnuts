@@ -1,0 +1,51 @@
++-----------------------------------------------------------------------------+
+   RNUTS History                                        RNUTS Version 3.0.2
++-----------------------------------------------------------------------------+
+
+RNUTS was started as inspiration of a friend of mine and I,
+elaborating from base NUTS 3.3.3.  We have changed the code 
+so much that it is in itself a new form of Talker code.  Not
+to detract from the fact the Neil Robertson was our initial
+choice for talker codes.  In fact we talk him for his work 
+and take pride in the fact that we have established a more 
+advanced form of the NUTS schema.  To us RNUTS is basically
+our personal form of NUTS, just as AMNUTS was created.  So 
+RNUTS is truelly origional.  Giving entire credit to Neil 
+Robertson for the basic talker engine.  
+
+We set about the creation of a better code On September 9, 
+1997.  My friend and I had been coding for several talkers. 
+Working on one particulat talker together.  The now late, 
+Olympia...after my talker Elgin, had lost its site.  Due to 
+politics both he and I not consulting each other, left Oly.
+
+It turns out we took a copy of base NUTS 3.3.3 that I had 
+and began from scratch, what is now RNUTS 3.0.2.  We are not
+certian as to the Version dates.  We upgraded the version
+numbers as we felt that we had put substantial changes and 
+bug fixes into the older version.  Incrimenting to odd numbers
+for test, and even numbers for release code.  Only running the
+release code on our talker 'Sherwood'. 
+
+We have been coding on RNUTS for a little over 9 months, sometimes 
+putting in as many as 12-15 commands a week.  It seams that over
+time we have lost interest in teh aspect of running a talker, and
+found that what we really enjoyed was the code creations.  We hope
+that you find our code, easy to use and all that you need. 
+
+Plans for the future:
+
+We have talked about how we want to impacked the RNUTS code for
+future releases.  Though at this time we do not have any 
+definate agenda.  If you have suggestions as to what would make 
+this code better, we are willing to listen and possibly include 
+your ideas in later releases.  We DO NOT though want any part in 
+the coding of your talker.  NOR do we have the time or Patience
+to debugg your code screwups.  If you FUCK UP our code that is your
+problem.  So don't come to us for help ion that case.  We will 
+in fact keep a list of those people that keep asking for help with
+FUCKED UP code and most likelly not respond.
+
+Good day.
+
+Friederich Klopfenstein & Chris Hyde - 1998

@@ -1,0 +1,11 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : blackjack                                 ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : blackjack <hand/join/deal/hit/stand/quit>
+
+   This command is the tool around which blackjack is played.  To start a 
+   game '.blackjack join'  use the same to join a game.  The rest should
+   be self explanitory.
+
+~FT+-----------------------------------------------------------------------------+

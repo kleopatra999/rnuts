@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : unban                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : unban site/user <site or username>
+
+   This command will unban either a site or a user, the name of which are
+   written in the files 'siteban' and 'userban' in the 'rnuts/datafiles'
+   directory.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : ban, listbans
+~FT+-----------------------------------------------------------------------------+
+

@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : examine                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : examine [<username>]
+
+   This commands shows you the users profile and various usefull 
+   statistics relating to his current or most recent login.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : entpro, status
+~FT+-----------------------------------------------------------------------------+

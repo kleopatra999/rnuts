@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : verify                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : verify <email verification code>
+
+   This command is used to verify your email address for smail 
+   auto-forward.  When you set your forwarding email address a 
+   verification code is emailed to you.  You must input this code
+   to enable smail auto-forwarding.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : set, forwarding
+~FT+-----------------------------------------------------------------------------+

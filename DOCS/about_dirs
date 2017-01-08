@@ -1,0 +1,107 @@
++-----------------------------------------------------------------------------+
+   About the Directory Structure                        RNUTS Version 3.0.2
++-----------------------------------------------------------------------------+
+
+Your asking about the directories?
+
+The server has a fixed directory structure and expects certain files to be
+in certain directories which I shall describe below...
+
+
+- bin
+
+	backup      - backup script, backup all source 
+	alter       - alter userfile script
+	go          - boot the talker scipt
+	tcc         - compile all source script
+
+- datafiles
+
+	This directory contains the config file which contains all the 
+	parameters necessary to boot the server 
+
+	config
+	config2
+	sitebans    - file containing banned sites
+	userbans    - file containing banned usernames
+	sysactions  - file containing system defined socials
+	sysmacros   - file containing system shortcuts and macros
+	wizlist     - the wizlist
+	newsfile    - the newsfile
+	newusrfile  - file containing the rules displayed at login for
+newbies
+	motd1       - login title screen
+	motd2       - message of the day
+	mapfile     - the mapfile
+
+	- boardfiles
+
+		This subdirectory is where room boards and other
+                non-attached boards are stored. 
+		<boardname/roomname>.B
+
+	- roomfiles
+
+		This directory is where room descriptions are stored.
+		<roomname>.R
+
+- faqfiles
+
+	file for wannabe comand stored here, also any files you put here
+	can be viewd with the .faq <filename>  if file start with a '*' they
+	are hidden and only viewable to wizes.
+
+- helpfiles
+
+	This contains all the help files. 'Nuff said really.
+
+
+- logfiles
+
+	accountlog         - log of all accreq's
+	bootlog            - log of all boot sequences
+	filterlog          - log for the limited firewall
+	promotelog         - log of all promotes, demotes, and pops
+	syslog             - log of all other system stuff
+	ulist_list         - the .ulist temp file
+	users_levelfilter  - list of users and levels for wizes (firewall)
+	users_list         - list of all users
+	users_removed      - log of all removed users by .delold
+	users_site_filter  - list of users and site for admin (firewall)
+	system_temp.<user> - temp file for all internet calls by a user
+
+- mailspool
+
+	This is where mail to other linked talkers is temporarily spooled 
+	ready to be sent off or while it is being received.
+
+	Outgoing mail filenames are in the format of: 
+	OUT_<from>_<to>@<service to>
+	eg OUT_Fred_Neil@talker2
+
+	Incoming ones are: IN_<to>_<from>@<service_from>
+	eg IN_Neil_Fred@talker1
+
+- objects
+
+	other source code stored here
+
+- picturefiles
+
+	datafiles for the .picture <filename> commands
+
+- rankfiles
+
+	datafiles for the .ranks <level> commands
+
+- userfiles
+
+	This contains the user files, 
+	these being their data file (.D),
+	profile/description (.P), 
+	any mail they may have (.M), 
+	and their macrofile (.A)
+
+- utils
+
+	source for the alter user utility and its temp files.

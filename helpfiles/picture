@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : picture                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : picture [<picturefile>] 
+
+   This command allows you to display an ascii picture to all users in
+   the same room as yourself.  An error is displayed if you try to show 
+   a picture that does not exist.  Also, typing .picture on its own will 
+   list out all available pictures.
+
+~FT+-----------------------------------------------------------------------------+

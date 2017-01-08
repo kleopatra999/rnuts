@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : move                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : move <username> [<roomname>]
+
+   Moves a user directly to the chosen room. If the no <room> is 
+   supplied then he is moved to the same room as whoever invoked 
+   the command. The user is not moved if he is already in the  
+   chosen room.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : throw, bring, join
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : suggest                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : suggest <message>
+
+   This allows you to make a suggestion to the owners/coders of 
+   this talker.  Suggestions might  include new command ideas, new 
+   rooms/room names, etc.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : rsuggest
+~FT+-----------------------------------------------------------------------------+

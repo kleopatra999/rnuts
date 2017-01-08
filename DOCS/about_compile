@@ -1,0 +1,53 @@
++-----------------------------------------------------------------------------+
+   About Compiling and Running                          RNUTS Version 3.0.2
++-----------------------------------------------------------------------------+
+
+How to compile and run the talker?
+
+We had thought of dividing this version of RNUTS up into separate source
+files then compiling and linking them together using a makefile but in the
+end we decided that it there was very little point as the code isn't that
+large and once its compiled its unlikely to be done again unless you decide
+to hack it about a bit or move to a different system.  This software was
+developed in parallel on HP-UX 10.01 using the ANSI compiler and Linux
+1.2.13 using gcc 2.5.8 so there should be no probs with either of these. I
+have also compiled and run it on SCO 3.2, AIX 3.2 and DYNIX 4.1.3 and 
+it seems to work fine though I have not done soak tests on these systems. 
+
+To compile:
+
+Linux & AIX: cc rnuts.c  (old compilers only before gcc 2.7.2.3)
+IRIX & OSF : ditto above?
+Linux & AIX: cc -lcrypt rnuts.c  (gcc 2.7.2.3 compiler)
+HP-UX      : cc -Ae rnuts.c  (you need the ANSI compiler)
+SCO 3.2    : cc rnuts.c -lsocket -lcrypt_i  
+DYNIX 4    : cc rnuts.c -lsocket -lnsl
+Solaris    : cc -lsocket -lnsl rnuts.c  (not guaranteed to work)
+SunOS 4    : dont even bother unless you have gcc
+
+Running...
+
+The talker comes with a config file ready made (datafiles/config) which will
+be a good starting point for you. There are some network addresses in there
+but they are more of a guide as to how to set up talker links rather than
+being genuine links themselves. 
+
+The talker also has a pre-made 'go' or boot script.  With some general
+declarations in it for $RNUTS=$HOME/rnuts.  This is assuming that you have
+installed the archive rnuts.tar.gz in your root home directory.  If you
+have not, you need to redefine this to reflect the location of RNUTS. 
+
+---->  To start the talker just type "go" from the bin directory, or you
+can add the $HOME/rnuts/bin to your profile's path definition, and be able
+to use the "go" script from any directory.  The "go" script will boot and
+automatically run itself in the background.  All its actions are written to
+the syslog file.  To log in you then just telnet to port 7000 and log in as
+"system" with the password "tester" as this is an account set up with OWNR
+status.  The "go" script assumes the executable is called a.out.
+
+We have included a 2nd config file called config2. This is so you can set
+up another talker (by copying the files from this current one) and have
+them link together. The only file that need to be different is the config
+file.  Move config2 into the 2nd datafiles directory as config and run the
+2nd talker.
+

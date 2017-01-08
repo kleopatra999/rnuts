@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : show                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : show <username> <text to show the user>
+
+   This will show a user how to do what you type in the <text area>
+   please note this is for helping other users.  And the wiz staff can
+   see what you are showing each other.
+
+   This helps you to help another user. You can use this to show them 
+   how to use commands and other aspects of this talker.
+
+~FT+-----------------------------------------------------------------------------+

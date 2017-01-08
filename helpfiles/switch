@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : switch                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : switch <roomname>
+
+   This allows you to swap places with one of your clones in the 
+   given room.   It saves you destroying the current clone, creating
+   another in your current room then moving yourself to the old 
+   clones room.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : clone, destroy, myclones, allclones, csay, chear
+~FT+-----------------------------------------------------------------------------+

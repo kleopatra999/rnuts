@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : promote                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : promote <username>
+
+   This promotes a user to the next level up. You can only promote a 
+   user of a lower level than yourself up to your own level.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : demote, pop
+~FT+-----------------------------------------------------------------------------+
+

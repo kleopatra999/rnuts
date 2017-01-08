@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : ban                                       ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : ban site/user <site or username>
+
+   This command will ban either a site or a user, the names of which are
+   written to the files 'siteban' and 'userban' in the 'rnuts/datafiles'
+   directory.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : unban, listbans
+~FT+-----------------------------------------------------------------------------+
+

@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : force                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : force <username> <to do this>
+
+   This command allows you to force a user to execute a preticular 
+   command string.  Including all argumants.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : show
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,53 @@
++-----------------------------------------------------------------------------+
+   Userdatafiles format (.D)                            RNUTS Version 3.0.2
++-----------------------------------------------------------------------------+
+
+What is the format of the user data file?
+
+This is a short description of the layout of the file in case you need to hack
+one manually eg to promote or demote someone.
+All times are in seconds.
+
+Line
+1:  encrypted password
+2:  <last login time> <total login time> <time last logged in for> 
+    <last time he read his mail> <level> <prompt on/off> <muzzle level> 
+    <charmode echo on/off> <command mode on/off> <colour on/off>
+    <jailed level> <cursed level> <email hidden on/off> 
+    <url hiddle on/off> <autoread on/off> <verified yes/no>
+3:  last login site
+4:  description
+5:  gender
+6:  age
+7:  email address
+8:  homepage address
+9:  enter into room phrase
+10: exit from room phrase
+11: login room
+13: text color code
+14: email forwarded toggle
+15: forwarding email address
+16: <hangman wins> <hangman losses> <hangman draws>
+17: <tictactoe wins> <tictactoe losses>
+18: <nerf wins> <nerf losses> <nerf life> <nerf charge>
+
+eg
+
+NUR0Ci.XoTM7Q
+893257770 862822 38 893257738 8 0 0 0 0 1 0 0 0 0 0 0 0
+sherwood.cybermac.net
+hasn't used .desc yet
+Male
+21
+http://sherwood.cybermac.net
+sherwood@sherwood.cybermac.net
+enters.
+goes
+clearing
+~RS
+#UNSET
+#NONE
+0 0 0
+0 0
+0 0 0 0
+

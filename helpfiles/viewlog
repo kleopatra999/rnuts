@@ -1,0 +1,12 @@
+
+* viewlog *
+
+Usage: viewlog <system/account/filter> [<#lines/-c/-b>]
+
+Views the specified logfile.
+
+Option: #lines -- replace this with the number of lines from the end
+                  of the file in which you wish to start viewing.
+        -c     -- clear the respective logfile.
+        -b     -- backup the repective logfile.
+

@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : destroy                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : destroy [<room> [<owner>]]
+
+   This will destroy a clone in a given room or your current room if 
+   you omit the room name. If you have the required priviledges then 
+   you can destroy another users clone by giving the optional owner 
+   argument. 
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : clone, switch, allclones, myclones, csay, chear
+~FT+-----------------------------------------------------------------------------+

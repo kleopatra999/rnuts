@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : whois                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : whois [<site>/-r]
+
+   This command allows the admin to check on a site to see if it is a 
+   legitimate site that is listed with internic.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : finger, nslookup, accreq
+~FT+-----------------------------------------------------------------------------+

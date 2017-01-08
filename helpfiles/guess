@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : guess                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : guess <letter>
+
+   Use this command to make a guess when playing Hangman.
+   Just type (.guess a  for example) to make your guess.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : hangman
+~FT+-----------------------------------------------------------------------------+

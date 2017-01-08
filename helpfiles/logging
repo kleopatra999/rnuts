@@ -1,0 +1,10 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : logging                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : logging
+
+   This is a toggle command that switches logging to the syslog 
+   on and off.  Also turns off login warning for filter.
+
+~FT+-----------------------------------------------------------------------------+

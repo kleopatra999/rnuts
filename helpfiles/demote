@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : demote                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : demote <username> 
+
+   This will demote a user to the next level down from the one he is 
+   currently at.  You can only demote a user of a lower level than 
+   yourself.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : promote, pop
+~FT+-----------------------------------------------------------------------------+

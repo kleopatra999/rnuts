@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : letmein                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : letmein  <roomname>
+
+   This sends a message to people in a private room letting know that 
+   you wish to enter. Its then up to them to invite you in.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : public, private, invite, bring, join, go
+~FT+-----------------------------------------------------------------------------+

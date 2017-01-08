@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : accreq                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : accreq <email address>
+
+   This command is the final stage in auto-promote for users wishing to
+   create an account here.  The idea is that they give their email address
+   so the sysop can mail them to confirm their identity.
+
+~FT+-----------------------------------------------------------------------------+
+

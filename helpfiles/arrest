@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : arrest                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : arrest <username>
+
+   This command is used to throw that annoying user in jail.  this
+   like muzzle is a level oriented command.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : release, muzzle, unmuzzle
+~FT+-----------------------------------------------------------------------------+

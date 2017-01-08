@@ -1,0 +1,37 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : colour                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : colour
+
+   This command toggles colour on and off.  The colour itself is 
+   controlled by embedded tags in text strings which all begin with 
+   a '~', eg /~FG.  They are the following...
+
+   Control tags...  
+  
+     /~RS : Rest terminal to default state
+     /~RV : ~RVReverse video
+     /~OL : ~OLBold
+     /~LI : ~LIBlink/flash text. This only works on some terminals, 
+           ~LIothers may simply display it as bold.
+     /~UL : ~ULUnderline text. As with blink this doesn't work on all 
+           ~ULterminals, some just display it as bold.
+
+   Foreground colour tags...              Background colour tags... 
+
+     /~FK : ~FK~BWForeground black~RS~FW             /~BK : Background black
+     /~FM : ~FMMagenta/purple       ~FW        /~BM : ~BMMagenta/purple
+     /~FR : ~FRRed                  ~FW        /~BR : ~BRRed
+     /~FY : ~FYYellow/orange        ~FW        /~BY : ~BYYellow/orange
+     /~FG : ~FGGreen                ~FW        /~BG : ~BGGreen
+     /~FB : ~FBBlue                 ~FW        /~BB : ~BBBlue
+     /~FT : ~FTTurquoise/bright blue~FW        /~BT : ~BTTurquoise/bright blue
+     /~FW : ~FWWhite                        /~BW : ~BW~FKWhite~RS
+
+   So this: "/~FG/~BB/~LIhello world" would produce ~FG~BB~LIhello world
+  
+   To display the colour tags as themselves without them producing a 
+   colour prepend the ~ with a / , eg //~FG
+
+~FT+-----------------------------------------------------------------------------+

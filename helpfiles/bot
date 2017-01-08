@@ -1,0 +1,18 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Topic~RS    : The Bot                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+   We have included this portion of the talker, to make this place a
+   little more like we feel it should be.  This bot will talk to you, if
+   you include his name, and a variation on one of the terms below.
+ 
+~FT   Triggers~RS : bop, bye, fortune, hello, hey, hi, hug, kiss, kick,
+              look, lick, pinch, poke, quote, sing, talk, tickle, 
+              topic, wave 
+
+   Be careful what you say to the bot, some words he reacts differently
+   than others. :) We will be adding more features in the near future.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : tictactoe
+~FT+-----------------------------------------------------------------------------+

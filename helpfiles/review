@@ -1,0 +1,14 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : review                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : review [<roomname>]
+
+   This will show the last few lines of conversation, emoting and 
+   echoes that took place in the room which you are in.  If you have 
+   gate crash or are a wiz then you can review rooms that you are not 
+   currently in.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : revtell, revshout
+~FT+-----------------------------------------------------------------------------+

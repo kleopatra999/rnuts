@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : throw                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : throw <username> <roomname>
+
+   This command enables you to throw a user out of the room you are in.
+   Although it will not allow you to throw that user into a currently 
+   private room.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : move, bring, join
+~FT+-----------------------------------------------------------------------------+

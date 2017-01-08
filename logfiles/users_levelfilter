@@ -1,0 +1,11 @@
+# This file contains the information for levelfiltering.  --fck
+# --------------------------------------------------------------
+# format         :  <Username> <level>
+# accepted level :  these are defined in who_wiz[] { }; "rnuts.h"
+# --------------------------------------------------------------
+
+
+System		OWNR
+# Test		ARCH
+Ziffnab		OWNR
+Rawhide		*

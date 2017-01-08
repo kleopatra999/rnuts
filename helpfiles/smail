@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : smail                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : smail <user> [<message>] 
+              or smail <user>@<service> [<message>]
+
+   You can send mail to a remote service/talker if your talker is 
+   currently connected to it.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : rmail, dmail, from
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : from                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : from
+
+   This shows you the people who have sent you the mail that is in 
+   your mailbox without actually showing you the contents of the mail.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : smail, dmail, rmail
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,10 @@
+# This file contains the sitefilter information.          --fck
+# --------------------------------------------------------------
+# Format        :  <Username> <site>
+# accepted site :  any dns looking site or ip number
+# --------------------------------------------------------------
+
+
+System		sherwood.cybermac.net
+# Test		sherwood.cybermac.net
+

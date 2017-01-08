@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : listbans                                  ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : listbans sites/users/swears
+
+   This will list all the sites or all the users currently banned from
+   logging in. Also it can list the currently banned swear words.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : ban, unban
+~FT+-----------------------------------------------------------------------------+
+

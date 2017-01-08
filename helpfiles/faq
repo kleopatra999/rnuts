@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : faq                                       ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : faq [<filename>]
+
+   This command gives a list of files that can be viewed and read 
+   for information about topics pertenant to the talker.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : help
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : ignshout                                  ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : ignshout
+
+   This is a toggle command that will switch on or off whether you 
+   hear shouts or not.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : ignall, igntell, ignore, unignore, showignore
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,38 @@
+#include <iostream.h>
+#include <fstream.h>
+#include <stdio.h>
+#include <string.h>
+
+void write_it(char* text) {
+FILE *fp;
+
+if (!(fp=fopen("temp","w"))) {
+	fprintf(fp,"%s\n",(char *)crypt(text,"z9"));
+	fclose(fp);
+	}
+}
+
+
+void main() {
+FILE *fp;
+char text[80],temp[80];
+
+cout << "Enter Passwd? ";
+cin >> temp;
+write_it(temp);
+
+cout << "Enter Passwd Again? ";
+cin >> temp;
+cout << endl;
+
+if (!(fp=fopen("temp","r"))) {
+	fscanf(fp,"%s",text);
+	cout << "-->string from fp.temp: " << text << endl;
+	fclose(fp);;
+	}
+
+if (!strcmp((char *)crypt(temp,"z9"),text)) 
+	cout << "Passwd Correct!" << endl;
+else
+	cout << "Passwd Failed!" << endl;
+}

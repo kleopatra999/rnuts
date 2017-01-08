@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : unignore                                  ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : unignore <username>
+
+   This command allows you to turn off ignoring on a specific user, 
+   allowing all tells and shouts from that user again.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : ignore, showignore, ignall, igntell, ignshout
+~FT+-----------------------------------------------------------------------------+

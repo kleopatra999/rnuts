@@ -1,0 +1,15 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : hangman                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : hangman <start/stop/status>
+
+   This allows you to start/stop/status the progress of your game 
+   of Hangman.  You currently can play this game by yourself; maybe 
+   someday we can get it modded to allow more than one user to 
+   play at a time.  Until then, live with it :P ;)
+
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : guess
+~FT+-----------------------------------------------------------------------------+

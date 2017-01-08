@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : bcast                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : bcast <message>
+
+   This command allows the wizzes and admin to broadcast to all rooms the
+   message supplying system and important info.  Command contians a 
+   notification beep sequence.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : wake
+~FT+-----------------------------------------------------------------------------+

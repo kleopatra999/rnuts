@@ -1,0 +1,118 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : macro                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : macro                                 (to list the macros)
+              macro <macroname>=<replacement text>  (to make/change a macro)
+              macro <macroname>=                    (to delete a macro)
+
+   Description:
+
+   ~FRWHAT ARE MACROS?
+
+   Macros are shortcuts. They make things easier to type.
+
+   There are two kinds: system macros (set up by the wizards, which 
+   everyone uses), and personal macros (your own set, made & used 
+   only by you).
+
+   ~FRCOOL! SO, HOW DO I MAKE A MACRO ?
+
+   You make up with a name for the macro, and what you want it to replace.
+   When you type the macro name, it's as if you typed in the replacement text.
+
+   Here's an example:
+
+   ~FG(TO MAKE A MACRO)~RS              .macro .cool=.echo This is very cool!
+   ~FG(TO RUN THE MACRO)~RS             .cool
+   ~FG(WHAT HAPPENS WHEN YOU RUN IT)~RS - This is very cool!
+
+   For example, what if I want to make a shortcut for something like this:
+
+   Pooh hugs <my friend> tight, and smiles happily?
+
+   Answer: You do something like this:
+
+   ~FG(TO DEFINE THE MACRO)~RS .macro .hug=.emote hugs $1 tight, and smiles.
+   ~FG(TO RUN IT)~RS           .hug Tiger
+   ~FG(WHAT HAPPENS)~RS        Pooh hugs Tiger tight, and smiles.
+
+   Notice the $1 in the first line? It's a special symbol, called a 
+   *parameter*.  It means "replace me with the first word you type after 
+   the macro name, when you run it". In our example, we typed .hug Tiger, 
+   and so the parameter $1 got replaced by the word "Tiger".
+
+   Guess what $2 replaces? Yup! The *second* word! You can replace up to 
+   nine words like that.
+
+   Here's another example:
+       
+   ~FG(TO DEFINE THE MACRO)~RS .macro .greet=.emote waves to $1, and says "$*"
+   ~FG(TO RUN IT)~RS           .greet Jen Hi there!
+   ~FG(WHAT HAPPENS)~RS        Pooh waves to Jen, and says "Hi there!"
+
+   Notice the $*? It's another kind of parameter. It means "replace me 
+   with all the words you haven't used yet." In our example, the first 
+   word, "Jen" replaces $1, and the rest of the words are "left over", 
+   so they replace $*. You can replace any number of "left over"
+   words with a $*, after all the number-type parameters are used up.
+
+   ~FRGOOD STUFF TO KNOW ABOUT MACROS
+
+   Your macros are saved when you log out, so you only need to enter 
+   them once.  Macros can contain multiple commands, separated by \\.
+
+   Macros can also run other macros. "Hmm... tricky, you say! But what if 
+   a macro runs itself, or a macro runs another macro which tries to run 
+   the first again?   Won't it run forever then?
+
+   No. A macro only gets expanded once. That way, you can put give the macro
+   the same name as a command, or a system macro,  and run the command from
+   within the macro. This can be useful for doing things like this:
+
+   .macro .emote=.emote /~FR$*
+
+   The above line makes all your emotes red. (See .help colour for info on 
+   how colour codes work.) Note that your *name* isn't red, because the 
+   emote command writes that, not the macro.
+
+   ~FRHOW DO I CHANGE A MACRO?
+
+   Just use the old name, and make a new macro.
+   EXAMPLE: ~FG(THE OLD DEFINITION)~RS .macro .hug=; hugs $1
+            ~FG(TO REDEFINE IT)~RS     .macro .hug=; hugs $*, and smiles.
+
+   It's as easy as that!
+
+   ~FRHOW DO I GET RID OF AN UNWANTED MACRO?
+
+   Just redefine it as "nothing".
+
+   EXAMPLE: ~FG(TO DELETE OUR ".hug" MACRO)~RS .macro .hug=
+
+   Again, pretty easy.
+
+   ~FRHOW DO I SEE WHAT MACROS I HAVE?
+
+   Type .macro, all by itself.  You'll see a list of system macros 
+   (you can't change these), and a list of personal macros (your 
+   own personal set).  Your personal macros over-ride system macros,  
+   so if you don't like what a system macro does, just make your own 
+   macro that does what *you* want.
+
+   ~FRI'M LOST!!!! :-( WHO DO I ASK FOR HELP?
+
+   You can ask me, Engi, if I'm online, or sent me .smail if I'm not.
+   (see .help smail or ask your local wizard for more info on sending 
+   mail)  You can also ask any high ranking wizard, or anyone else you 
+   think might know. If you're polite, people will generally be quite 
+   helpful.   Or email me at "fklopfe@csci.uark.edu"
+
+   If you have any suggestions/comments/constructive criticisms, you 
+   can send them to me, too. Feedback is *good*!
+
+   Well, good luck with using the new macros, and remember to ask if you have
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : action, sysmacro, sysaction
+~FT+-----------------------------------------------------------------------------+

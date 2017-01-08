@@ -1,0 +1,16 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : wemote                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : wrmote [<superuser level>] <message>
+
+   This command allows superusers to emote to various superuser levels 
+   though they can only specifically emote to levels equal or less that 
+   their own.  Current levels supported are APPRENTICE -> OWNER. If no 
+   level is specified it defaults to APPRENTICE which means that all 
+   superusers will here it. If for instance the level is specified as 
+   OWNER then only users of level GOD will see the message.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : wtell
+~FT+-----------------------------------------------------------------------------+

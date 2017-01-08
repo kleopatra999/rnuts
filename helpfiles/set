@@ -1,0 +1,27 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : set                                       ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : set <option> [<text>]
+
+~FT   Options~RS  : desc  | gend  | email   | url      | age  | login
+              color | fmail | autofwd | autoread | hide
+
+   This command allows you to set some of your profile attributes. 
+   The ones you can set with this command are listed above.  If you 
+   try to set an invalid attribute, you are presented with an error 
+   message and a list of valid set parameters.  Also, typing .set and 
+   the attribute name will display your current setting for that attribute. 
+
+      Example:    .set gend
+
+   Would Display:  Gender Set to: <your setting>
+
+   NOTE: Valid settings for 'color' are:
+        ~FWwhite     or FW~RS, ~FRred   or FR~RS, ~FYyellow or FY~RS,
+        ~FMpurple    or FM~RS, ~FGgreen or FG~RS, ~FBblue   or FB~RS,
+        ~FTturquoise or FT~RS
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : desc, inphr, outphr
+~FT+-----------------------------------------------------------------------------+

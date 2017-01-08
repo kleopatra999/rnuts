@@ -1,0 +1,11 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : myclones                                  ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : myclones
+
+   This will show you the rooms on the system where you currently have clones.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : clone, destroy, switch, allclones, csay, chear
+~FT+-----------------------------------------------------------------------------+

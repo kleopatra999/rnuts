@@ -1,0 +1,15 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : write                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : write [<message>]  or  write <boardname><enter>
+
+   This writes a message on the board of the room you are in. If 
+   you omit the test you are put into the line editor to enter your 
+   message in that.  If you are a wiz you may write messages to the 
+   wiznote.  If you are an admin you may write messages to the admnote
+   and the news.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : read, wipe, search
+~FT+-----------------------------------------------------------------------------+

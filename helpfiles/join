@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : join                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : join <username>
+
+   Joins a user in whatever room they are in. If you are already in 
+   that room you will not go anywhere.  This assumes that if the room
+   is private that you have been invited.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : go, bring, move, invite
+~FT+-----------------------------------------------------------------------------+

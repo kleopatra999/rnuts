@@ -1,0 +1,64 @@
+Not sure when all these were created, but here is a list of all
+commands that have been added to the code.  Some 60 commands in 
+all at this point.
+
+actions    - listing of all socials for the talker.
+arrest     - arrest that annoying user, and throw them in jail
+bact       - make the bot do things.
+bmail      - read the bot's mail
+bring      - bring a user to you
+cbot       - connect the bot
+charge     - charge your nerf gun
+comment    - comment on the current sessions discussion
+copyto     - cc: for smail
+cshout     - clear the shout buffer
+ctell      - clear your personal tell buffer
+curse      - curse a preticularly annoying user
+delold     - delete old user accounts 30 days old or older
+duel       - duel or fight another user
+enchant    - remove a users .curse
+faq        - read certain faqfiles
+finger     - internet finger command
+force      - force a user to do something
+forwarding - forward mail on off toggle
+guess      - guess a letter for hangman
+hangman    - start stop hangman
+ignore     - ignore a certain user
+join       - join a certain user
+last       - see when a certain user was last online
+macro      - define and/or look at your macros
+matchsite  - see is a users site matches other users sites
+motd       - read the message of the day if you missed it
+nerf       - nerf another user in the nerf room
+nocopy     - turn off cc for smail
+nslookup   - nslookup for internet
+nuke       - nuke or delete that annoying user
+picture    - show everyone a picture
+pop        - pop a user to a specific level bypassing all others
+qbot       - log out for the bot
+ranks      - see a listing of the ranks and info on them
+recent     - see who the last 10 users leged in were
+release    - let a user out of jail
+reset      - reset your current game of tictactoe
+revshout   - review the shout buffer
+revtell    - review your tell buffer
+rsuggest   - read the suggestions
+session    - start a new session convorsation
+set        - set certain options
+show       - show a user how to do something
+showignore - show your list of ignored users
+suggest    - suggest something
+sysaction  - define a system action of social
+sysmacro   - define a system macro of shortcut
+throw      - throw a user in another room
+tictactoe  - start a game of tictactoe with another user
+time       - see what time it was and some useful other info
+ulist      - list all users starting with a certain letter
+unignore   - remove the ignore of a certain user
+users      - get a curent user count
+verify     - verify your forwarding address for forwarding smail
+wannabe    - see how to become a wiz or admin on this talker
+wemote     - wiz communication emotes
+whois      - whois for internet
+wizlist    - see the list of wizes, and which of them is loged in
+wtell      - wiz communication tells

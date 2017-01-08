@@ -1,0 +1,11 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : ignore                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : wake <user> <message>
+
+   This sends a message and a beeping noise to the users terminal hopefully
+   attracting his attention.
+
+~FT+-----------------------------------------------------------------------------+
+

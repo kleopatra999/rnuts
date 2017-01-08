@@ -1,0 +1,95 @@
++-----------------------------------------------------------------------------+
+   About the Firewall                                   RNUTS Version 3.0.2
++-----------------------------------------------------------------------------+
+
+Your asking about the firewall?
+
+We have included as part of this RNUTS system a limited firewall.  This 
+was derived from a hack incident that concluded in the creation of the 
+following security system.   This is not a fancy or very extravagant 
+security system though I will state that it does help.  Any form of 
+security is better than non at all.
+
+The login Checks:
+
+	As we all know the login prompt is probably the most insecure point 
+on a talker.  People can try for hours to gain other users passwords.  This 
+is the simple online form of this firewall, below is the format of what is
+displayed to the admin of the talker, as users enter information at the
+login prompt during login. 
+
+-- login  : <site> --
+
+This is displayed when a user connects prior to the entering of any data,
+as you can see we already have their site.
+
+-- who    : <site> --
+
+This is displayed when a user does a login prompt who, sometimes users will 
+do this to see who is loged in.  This has been used to gain users
+loginnames.
+
+-- passwd : <username> : <site> --
+
+This is displayed when they have succesfully entered a username.  Though
+they have not entered a password as yet.
+
+-- quit   : <site> --
+
+And of course this is displayed when a user desides and gives up a login
+attempt by typing "quit" at the login prompt.
+
+
+The background checks:
+
+	There are three levels of checks that are run and logged in the 
+background.  These are simply, a password check, and level check, and for
+some paranoid admin, a sitefilter.  The sitefilter is not intended for any
+other purpose but to mask the login site of the admin.  This is designed to
+limit the capability of people from being able to mess with them via 
+harasment.
+
+These three checks are done at two points in the login process.  The
+Password check is done everytime a password is entered.  If those
+passwords do not match the users password then an attempt is loged in the
+log, in the form of:
+
+<date> <time>: Failed passwd check: <username>   <site>
+
+Please not that I do not log the actuall passwd attempt...because some
+users tend to misstype their passwords, and I feel that it is a privacy
+issue.
+
+The other two checks are done on completion of login. Where both password
+and  username have been succesfully entered.  These are the level check,
+which is designed for the wiz and admin levels.  If a user has been
+promoted past the user levels, and has not been entered into the
+'users_levelfilter' then they will be auto-demoted to the highest (probably
+should change that to lowest) user level, and the following is loged in the
+filterlog:
+
+<date> <time>: Failed level check : <username>   <site>
+<date> <time>: Filter level check : <username>   <level>
+
+The format of the 'users_levelfilter' is as follows:
+
+<username>  <level defined name>
+
+You may comment out lines in this file by putting a '# ' in front of any
+line.  The "level defined name"s are those #define's in the rnut.h file.
+
+The sitefilter is where a users site is then masked by the data inluded
+from the file 'users_sitefilter'.  These sitefilters are loged, and apear
+in the filterlog as follows:
+
+<date> <time>: Filter level check : <username>   <site>
+
+The sites listed are those sites that the user loged in from, even though
+it will not apear in the .people or anywhere else on the talker.
+
+The format of the 'users_sitefilter' is as follows:
+
+<username>  <mask.site.edu>
+
+You may comment out lines in this file by putting a '# ' in front of any
+line.

@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : unfix                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : unfix [<roomname>]
+
+   This will unfix a rooms access so that it can then be set to public 
+   or private using the appropriate commands. If the room is ommited 
+   then the users current room is used.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : fix, private, public
+~FT+-----------------------------------------------------------------------------+

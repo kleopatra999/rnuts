@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : last                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : last  <username>
+
+   This commands shows you the users last login time, and how long ago 
+   that they were online.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : examine, status, recent
+~FT+-----------------------------------------------------------------------------+

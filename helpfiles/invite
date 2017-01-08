@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : invite                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : invite <username>
+
+   This will allow a user of your choice to be invited into a private 
+   room which you are in.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : public, private, letmein, bring, join, go
+~FT+-----------------------------------------------------------------------------+

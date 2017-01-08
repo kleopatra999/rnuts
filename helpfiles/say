@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : say                                       ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : say <message>
+
+   This command is only needed when in COMMAND mode, since in 
+   SPEECH mode everything you type that isn't a command is 
+   interpreted as speech.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : shout, tell
+~FT+-----------------------------------------------------------------------------+

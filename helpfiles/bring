@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : bring                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : bring <username>
+
+   Moves a user directly to the room you are in. The user is not brought 
+   if he is already in the same room as you.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : go, join, move
+~FT+-----------------------------------------------------------------------------+

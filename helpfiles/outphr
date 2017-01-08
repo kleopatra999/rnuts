@@ -1,0 +1,15 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : outphr                                    ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : outphr [<message>]
+
+   This sets the message that is displayed following your name 
+   when you leave a room. eg if your name is fred and you set it 
+   to "leaves fast" other people will see "Fred leaves fast" when 
+   you leave a room. If you omit the message it shows you your 
+   current message.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : inphr, desc, set
+~FT+-----------------------------------------------------------------------------+

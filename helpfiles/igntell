@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : igntell                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : igntell
+
+   This is a toggle command which will switch on or off the ability 
+   of other users to send you .tells.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : ignall, ignshout, ignore, unignore, showignore
+~FT+-----------------------------------------------------------------------------+

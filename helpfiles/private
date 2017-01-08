@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : private                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : private [<roomname>]
+
+   This will set a public room to private as long as it is 
+   not fixed to public. The <roomname> option can only be used by 
+   users of gatecrash_level and above.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : public, invite, letmein, fix, unfix
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,18 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : session                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : session [<message/-w>]
+
+   This command is for the use as a discussion forumn throughout the 
+   talker.  Users may pose topics, and other users may comment on those 
+   topics.  If the users does not write a message after the session, this
+   command will display the active session, or prompt the user that they 
+   may wish to set a session, if one is not set.
+
+   Options: <message> -- topic that is set by the user.
+            -w        -- see who set the active session.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : comment
+~FT+-----------------------------------------------------------------------------+

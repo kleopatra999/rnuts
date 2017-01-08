@@ -1,0 +1,11 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : motd                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : motd
+
+   This allows you to view the announcement file, that is shown as 
+   you login.  For most people, it scrolls by too fast to read, so 
+   this command was added to allow you to see it all.
+
+~FT+-----------------------------------------------------------------------------+

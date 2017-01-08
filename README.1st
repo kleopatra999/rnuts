@@ -1,0 +1,111 @@
++-----------------------------------------------------------------------------+
+   Readme.1st                                           RNUTS Version 3.0.2
++-----------------------------------------------------------------------------+
+
+i. Index of topics:
+
+        1. Before you begin...
+        2. Building from the archives...
+        3. Documentation
+        4. Compiling source code...
+        5. Copywrites...
+        6. Thank yous and acknowledgements...
+
++-----------------------------------------------------------------------------+
+
+1. Before you begin:
+
+   First of all we want to thank you for choosing RNUTS 3.0.2  We are very
+proud that you want to try our code base for your talker.  It is your
+interest in talkers that has inspired our minds to create this code in the
+first place.  We liked the functionality of the NUTS codebase,
+but saw how it lacked in some areas or in certain things(no
+offense meant in any way to the original author(s)), so we added 
+our ideas to the mix and developed this base.  Personally we wanted to
+create a code that was both fun and useful.  We hope that we have
+accomplished that.
+
+   Now you are probably wondering where you need to start.  As you can
+tell there is nothing in this directory at the moment except a few archive
+files, a Build script and a README.1st which we hope you finish reading.
+Please refer to the next section about Building to see how to make your
+talker come to life.
+
++-----------------------------------------------------------------------------+
+
+2. Building from the archives:
+
+   As you noted there is a Build script in this directory along with a few
+archives.  What the general purpus of this Build script is, was to make
+the install process a bit less painful.  Due to the fact that the
+utilities and scripts need to be compiled, and to assure that all files
+are properly placed in the directory structure i would recommend that you
+use the build script.
+
+  To do so, simply type at your unix prompt:   ./Build
+
+If you know that 'gcc' does not work and or is not mapped to the GNU
+compiler on your server, please do not use the Build script.  Instead you
+will need to manually unpack the archive files, and compile your
+utilities, changing the a.out files from each util compiled to
+<utilname>.ex
+
++-----------------------------------------------------------------------------+
+
+3. Documentation:
+
+   During the building process a few DOCS are going to be installed.
+Please read these carefully because they will give you needed information
+as to how you need to set the config file up so that your taer works
+properly.
+
++-----------------------------------------------------------------------------+
+
+4. Compiling source code:
+
+   Included with the DOCS you will find a document on compiling your
+server.  Please note that not all servers will compile simply by typing:
+
+   gcc rnuts.c
+
+In some casses you will have to deviate from that to make your server
+compile.
+
++-----------------------------------------------------------------------------+
+
+5. Copywrites:
+
+   Also note that the source code you have just recieved is licenced under
+a free copywrite.  This means that you can change and distribute this code
+as you like.  But also Note..a slight change to this code does not mean
+that you have created a completelly new code base.  If you are going to go
+and change one or two lines and then start disributing it calling it your
+own code this is not the talker code for you.
+
++-----------------------------------------------------------------------------+
+
+6. Thank yous and acknowledgements:
+
+First and foremost, thanks to Neil Robertson and all that helped him
+create the original NUTS codebase.
+email: neil@ogham.demon.co.uk
+home page     : http://www.wso.co.uk/neil.html
+NUTS home page: http://www.wso.co.uk/nuts.html
+
+Also, thank you for choosing RNUTS 3.0.2. This code has been brought to
+you in part by our Source Code Distributor.
+
+Talker Site Host and Code Distribution:
+   Cybermac Consulting
+   4250 Ximines Lane
+   Plymouth, MN 55441
+
+   http://www.cybermac.net/html/milliways.html
+   john@cybermac.net
+
+Also thanks to all the people that have helped us along the way as
+well(see .h credits for more info).
+
+Friederich Klopfenstein & Chris Hyde - May 1996
+
+sherwood@sherwood.cybermac.net

@@ -1,0 +1,12 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : bmail                                     ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : bmail
+
+   This command allows the admin to read the bots smail.  Future addition
+   will be to enable the bot to send smail as well.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : cbot, qbot, bact
+~FT+-----------------------------------------------------------------------------+

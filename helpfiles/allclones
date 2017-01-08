@@ -1,0 +1,11 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : allclones                                 ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : allclones
+   
+   This shows who has clones on the system and what rooms they are in.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : clone, destroy, myclones, switch, csay, chear
+~FT+-----------------------------------------------------------------------------+

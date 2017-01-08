@@ -1,0 +1,20 @@
+
+~FT+-----------------------------------------------------------------------------+
+~FT   Talkers Ranks                                        RNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+   No  Level names       Commands        Chances for gaining this level
+~FT   --  -----------       ----------      ------------------------------
+   0   Forrester         (18)            1   -> 34  (users start here)
+   1   Merryman          (44) -> 62      34  -> 90  (first user level)
+   2   Minstrel          (15) -> 77      90  -> 116 (main user level)
+   3   Archer            (9)  -> 86      116 -> 128 (last user level)
+   4   Apprentice        (5)  -> 91      128 -> 133 (beggining wiz level)
+   5   Friar             (9)  -> 100     133 -> 154 (main wizard level)
+   6   Sheriff           (22) -> 122     154 -> ?   (high wizard level) 
+   7   Magistrate        (15) -> 137     ?   -> ?   (admin level)
+   8   Owner             (11) -> 148     ?   -> ?   (owner level)
+
+~FT+-----------------------------------------------------------------------------+
+   To get info on any of the user levels type '.ranks <levelname>' 
+~FT+-----------------------------------------------------------------------------+

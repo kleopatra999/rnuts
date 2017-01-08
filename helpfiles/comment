@@ -1,0 +1,13 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : comment                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : comment <message>
+
+   This command will store a comment to an active session, if a session
+   is not set this command will prompt the users that they may wish to set 
+   a session.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : session
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,15 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : actions                                   ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : actions
+
+   This shows a current list of system socials.  These are like 
+   other commands.  They will act like other commands.
+
+   NOTE:  $*  is a representations of .<command> <all other text goes in $*>
+          $1  is a representation of first word after the .<command> 
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : macro
+~FT+-----------------------------------------------------------------------------+

@@ -1,0 +1,18 @@
+~FT+-----------------------------------------------------------------------------+
+~FT   Command~RS  : nerf                                      ~FTRNUTS Version 3.0.2
+~FT+-----------------------------------------------------------------------------+
+
+~FT   Usage~RS    : nerf <username>
+
+   This is a combat type game in which you start with 10 lives and a nerf 
+   gun, that is empty usually.  The obbject is to nerf your opponent
+   10 times before you have been nerfed 10 times.  Your nerf gun holds 5 
+   shots but the accuracy of your gun depends only upon the speed in which
+   you shoot.  The faster you shoot, the less accurate, and the more you 
+   have to .charge your gun with 5 new shots.
+
+   NOTE:  you must be in the designated nerfroom.
+
+~FT+-----------------------------------------------------------------------------+
+~FT   See also~RS : charge
+~FT+-----------------------------------------------------------------------------+
